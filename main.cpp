@@ -12,5 +12,13 @@ int main() {
 
     cout << k * 7 + 2 << '\n';
 
-    return 0;
+    std::cout << "bindera!" << std::endl;
+    int x = 15;
+    while (x--) {
+        for (int i = 0; i <= x; i++) {
+            std::cout << i << '\t';
+        }
+        std::cout << '\n';
+    }
+    return 12;
 }
