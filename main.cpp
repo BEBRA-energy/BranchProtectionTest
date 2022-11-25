@@ -13,12 +13,12 @@ int main() {
     cout << k * 7 + 2 << '\n';
 
     std::cout << "bindera!" << std::endl;
-    int x = 15;
+    int x = 0x0F;
     while (x--) {
         for (int i = 0; i <= x; i++) {
             std::cout << i << '\t';
         }
         std::cout << '\n';
     }
-    return 12;
+    return 0x0FFFFFFF;
 }
